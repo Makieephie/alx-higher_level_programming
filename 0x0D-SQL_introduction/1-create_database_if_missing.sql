@@ -1,3 +1,4 @@
--- Creates a new database
--- Query to create the database hbtn_Oc_O in MySQL server if it does not exist
-CREATE DATABASE IF NOT EXISTS hbtn_Oc_O;
+-- Creates a database, it should not fail even if it already exist.
+
+DROP DATABASE IF EXISTS hbtn_0c_0;
+CREATE DATABASE hbtn_0c_0;
